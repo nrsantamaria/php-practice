@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Pick a color</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Find your fortune from your color!</h1>
+        <form action="fortune_teller.php">
+            <div class="form-group">
+                <label for="user_color">Pick a color</label>
+                <select class="selectpicker" name="user_color" id="user_color">
+                  <option value="Red">Red</option>
+                  <option value="Orange">Orange</option>
+                  <option value="Yellow">Yellow</option>
+                  <option value="Green">Green</option>
+                  <option value="Blue">Blue</option>
+                  <option value="Violet">Violet</option>
+                  <option value="Black">Black</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-success">Go!</button>
+        </form>
+    </div>
+</body>
+</html>
